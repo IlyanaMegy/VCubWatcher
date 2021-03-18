@@ -18,12 +18,27 @@ namespace VCubWatcher.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Accueil()
+        {
+            return View();
+        }
+
+        public IActionResult Liste()
+        {
+            return View();
+        }
+
+        public IActionResult Carte()
+        {
+            return View();
+        }
+
+        public IActionResult Favs()
         {
             return View();
         }
