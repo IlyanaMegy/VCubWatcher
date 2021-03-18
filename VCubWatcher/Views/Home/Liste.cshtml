@@ -1,7 +1,16 @@
-﻿@{
+﻿
+@model List<VCubStation>
+@{
     ViewData["Title"] = "Liste";
 }
 
 <h2>Liste des stations</h2>
 
 <p>Tu es sur la page Liste des stations !</p>
+
+<ul>
+    @foreach (var station in Model)
+    {
+        <li>@station.Name</li>
+    }
+</ul>
